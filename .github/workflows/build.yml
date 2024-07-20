@@ -9,7 +9,6 @@ jobs:
       # Устанавливаем Node.js
       - uses: actions/setup-node@v3
       - run: make setup
-      - run: make start
       # Запускаем линтер
       - run: make lint
       # Запускаем тесты
