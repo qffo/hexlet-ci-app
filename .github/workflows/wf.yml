@@ -1,0 +1,14 @@
+name: wf
+on: push
+jobs:
+  build: # имя взято для примера
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: make setup
+      - run: make start
+      # Запускаем линтер
+      - run: npm run lint
+      # Запускаем тесты
+      - name: run tests # имя шага, помогает отладке, выводится на Github при просмотре сборки
+        run: make test # name и run относятся к одной задаче, поэтому дефис ставится только перед name
