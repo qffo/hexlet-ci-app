@@ -1,4 +1,4 @@
-name: wf
+name: build
 on: push
 jobs:
   build: # имя взято для примера

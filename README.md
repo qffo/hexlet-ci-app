@@ -1,4 +1,4 @@
- [![Actions Status](https://github.com/qffo/hexlet-ci-app/workflows/wf/badge.svg)](https://github.com/qffo/hexlet-my-first-workflow/actions)
+ [![Actions Status](https://github.com/qffo/hexlet-ci-app/workflows/build/badge.svg)](https://github.com/qffo/hexlet-ci-app/actions)
 
 
 # Example app for CI Hexlet course
