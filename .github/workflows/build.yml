@@ -4,8 +4,8 @@ jobs:
   build: # имя взято для примера
     runs-on: ubuntu-latest
     steps:
-      - run: make setup
-      - run: make start
+      - uses: make setup
+      - uses: make start
       # Запускаем линтер
       - run: make lint
       # Запускаем тесты
