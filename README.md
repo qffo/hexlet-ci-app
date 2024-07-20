@@ -1,3 +1,6 @@
+ [![Actions Status](https://github.com/qffo/hexlet-ci-app/workflows/wf/badge.svg)](https://github.com/qffo/hexlet-my-first-workflow/actions)
+
+
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
